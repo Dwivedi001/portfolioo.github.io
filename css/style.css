@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #0d86f8;}
+.top .logo{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.top .top-left{
+    padding: 1rem;
+
+}
+.top-right ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 2rem;
+    
+}
+ul li{
+    padding: 1rem;
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+/*  top end */
+/*  main start */
+.main h1{font-family: "Baskervville SC", serif;
+    padding: 10rem 2rem 0rem 4rem;
+    color: #FAE8E0;
+    font-size: 3rem;
+
+}
+.main p{
+    padding: 1rem 4rem;
+    text-transform: capitalize
+    ;
+    font-weight: bold;
+    color:#B6E2D3;
+
+}
+.main-btn{
+    display: flex;
+    padding:  2rem 4rem;
+}
+.main-btn-left{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 0px 3px 1px 0px black;
+    color: white;
+    font-weight: bold;
+    background-color: #D8A7B1;
+}
+
+.main-btn-left a{
+    text-decoration: none;
+    color: white;
+}
+.right-btn{
+    margin-left: 3rem;
+    background-color: #B6E2D3;
+   
+
+}
+/*  about  */
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+.about-left{
+    padding: 2rem;
+
+}
+.left-class{
+    width: 30rem;
+    height: 40rem;
+    border-radius: 20px;
+    box-shadow: 0px 3px 1px 0px black;
+}
+.about-right{padding: 3rem;
+
+}
+.btn-btn-right{
+    padding: 1rem;
+    background-color: #D8A7B1;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0px 3px 1px 0px black;
+    color: white;
+}.text{
+    padding: 1rem 0rem;
+}
+ .text1 p{font-family: "Baskervville SC", serif;
+    padding:1rem 0rem;
+    line-height: 2rem;
+    color:grey;
+    
+}
+/* work */
+.work{
+    padding: 2rem;
+}
+.work p{
+    color: #0d86f8;
+    text-align: center;
+}
+.work h2{
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.img-list{
+    margin: 2rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px;
+}
+/*  media qeury */
+/* contact */
+.contact-us{
+    background-color: #0d86f8;
+
+    
+}
+.contact-us p{
+    text-align: center;
+    padding: 1rem 0rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.contact-us h2{
+    text-align: center;
+    padding: 1rem;
+  color: black;
+}
+.contact{
+    padding: 3rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-left{
+    padding: 2rem;
+    background-color: white;
+
+    border-radius: 20px;
+
+}
+.contact-left input,textarea {
+    background-color: #d2cecd;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+    margin: 1rem;
+    border: 0;
+}
+
+.email{
+    padding: 2rem 14rem;
+}
+button{
+    margin: 1rem;
+    padding: 1rem 18rem;
+    border-radius: 20px;
+    background-color: #0d86f8;
+    border: 0;
+}
+.address span{
+    padding: 1rem;
+    color: rgb(220, 217, 217);
+}
+/* footer design */
+.footer{
+    background-color: rgb(29, 25, 74);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:grey;
+}
+.f-btn{
+    margin-top: -4rem;
+}
+.footer1 {
+    padding: 1rem;
+}
+.footer-btn{
+    border-radius: 20px;
+    padding: 1rem 4rem;
+    background-color: #0d86f8;
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.footer1 h2{
+    padding-top:2rem;
+}
+.footer1 p{
+    margin-top: 2rem;
+}
+.footer1 ul li a{
+    color: grey;
+}
+.grp-icon{
+    padding: 1rem 0rem;
+}
+.grp-icon i{
+    padding: 0.5rem;
+    font-size: 2rem;
+
+}
